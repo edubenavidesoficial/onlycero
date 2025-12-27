@@ -40,14 +40,12 @@ class HomeController extends Controller
    * @return \Illuminate\Http\Response
    */
   public function index()
-  {    
-    try {
-      // Check Datebase access
-      $this->settings;
-    } catch (\Exception $e) {
-      // Redirect to Installer
-      return redirect('install/script');
-    }
+  {
+   if (!Schema::hasTable('admin_settings')) {
+  abort(500, 'Application not installed');
+}
+
+$this->settings = AdminSettings::first();
 
     // Home Guest
     if (auth()->guest()) {
