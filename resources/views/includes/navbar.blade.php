@@ -397,19 +397,19 @@
 }
 
 .navbar_background_color {
-  background: linear-gradient(135deg, #696767FF, #660219FF);
+  background: linear-gradient(105deg, #397f3cff, #85bf3c99);
 }
 
 .bg-white .floating-menu{
-  background: linear-gradient(135deg, #D50A40FF, #443C3CFF);
+  background: linear-gradient(135deg, #397f3cff, #443C3CFF);
 }
 
 .navbar_background_color:hover {
-  background: linear-gradient(135deg, #222, #5D0214FF);
+  background: linear-gradient(135deg, #222, #85bf3c99);
 }
 
 .bg-white:hover {
-  background: linear-gradient(135deg, #870425FF, #403338FF);
+  background: linear-gradient(135deg, #199050ef, #144d15b5);
 }
 
 .navbar-nav .nav-link {

@@ -1,6 +1,6 @@
 <style>
 .floating-menu {
-  background: linear-gradient(to bottom right, rgb(116, 179, 52), rgba(79, 21, 21, 0.25));
+  background: linear-gradient(294deg, rgb(116, 179, 52), rgba(31, 119, 45, 0.56) 99.58%);
   backdrop-filter: blur(5px) saturate(50%);
   -webkit-backdrop-filter: blur(5px) saturate(50%);
   border-radius: 16px;
@@ -42,7 +42,7 @@
 }
 
 .floating-menu a.active {
-  background: linear-gradient(135deg, #696767FF, #660219FF);
+  background: linear-gradient(to bottom right, rgb(105, 103, 103), rgb(50, 203, 76));
   pointer-events: none;
 }
 </style>
